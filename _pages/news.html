@@ -1,0 +1,10 @@
+---
+layout: archive
+title: "Aktualności"
+permalink: /aktualnosci/
+author_profile: true
+---
+
+{% for post in site.news reversed %}
+  {% include archive-single-news.html %}
+{% endfor %}
